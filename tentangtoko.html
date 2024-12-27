@@ -11,13 +11,42 @@
         background: url("./asset/Desenho\ de\ fundo\ de\ formas\ abstratas\ pretas\ _\ Vetor\ Grátis.jpeg") no-repeat center center/cover;
         color: white;
       }
+
+      /* Navbar */
+      .navbar {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        background-color: #e74c3c; /* Warna merah untuk navbar */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: white;
+      }
+      c .navbar-nav .nav-link {
+        color: white;
+        margin: 0 10px;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ffdd57; /* Warna kuning saat hover */
+      }
+
+      .navbar-text {
+        color: white;
+      }
+
       .hero {
         background: rgba(0, 0, 0, 0.5);
-        height: 600px;
+        height: 100vh; /* Memastikan hero selalu memenuhi satu layar penuh */
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+        padding: 3rem 0;
       }
       .hero h1 {
         font-size: 4rem;
@@ -49,12 +78,9 @@
 
     <section class="hero">
       <div class="container">
-        <h1>Selamat Datang di Toko Sepatu Saha</h1>
+        <h1>Selamat Datang di Toko FAIZ SHOES</h1>
         <p class="lead">Menawarkan sepatu terbaik untuk segala kebutuhan Anda.</p>
       </div>
-    </section>
-
-    <section id="about" class="py-5">
       <div class="container">
         <h2>Tentang Kami</h2>
         <p>
